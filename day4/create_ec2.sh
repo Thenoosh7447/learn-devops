@@ -6,13 +6,13 @@ check_cli() {
 		echo "AWS CLI is installed ---" 
 	else
 		echo "AWS CLI isn't installed"
-		install_cli
+		installCli
 	fi
 	
 }
 
 
-install_cli() {
+installCli() {
 	echo "*************** Insalling Amazon CLI............."
 	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 	unzip awscliv2.zip
@@ -20,6 +20,10 @@ install_cli() {
 	echo "************Installed Amazon CLI*************"
 }
 
+
+createInstance() {
+
+}
 
 
 check_cli
