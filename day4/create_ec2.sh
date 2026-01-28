@@ -53,7 +53,7 @@ check_cli
        	sId="subnet-07be38237f07674f2"
 	iName="Test-server"
 
-	create_instance "$amiId" "$iType" "$kName" "$sId" "$sgId" "$iName"
+	create_instance "$amiId" "$iType" "$kName" "$sgId" "$sId" "$iName"
 }
 
 main
