@@ -1,7 +1,8 @@
 #!/bin/bash
 
 
-set -uo pipefail
+set -euo pipefail
+set -x
 
 USERNAME="Test File"
 
